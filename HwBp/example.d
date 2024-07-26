@@ -5,6 +5,8 @@ import core.sys.windows.windows;
 
 import hwbp;
 
+pragma(lib, "user32.lib");
+
 // MessageBoxA Hook Example, Changing Title And Caption.
 void msgBoxAHook(PCONTEXT ctxRec) {
 
