@@ -3,9 +3,6 @@ module hwbp;
 import std.stdio;
 import core.sys.windows.windows;
 
-
-pragma(lib, "user32.lib");
-
 enum Drx {
     Dr0,
     Dr1,
