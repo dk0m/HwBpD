@@ -8,7 +8,6 @@ To run the HwBpD example, Execute this:
 
 ```
 $ rdmd example.d
-
 ```
 
 To compile it, Run this:
