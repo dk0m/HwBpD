@@ -4,16 +4,10 @@
 Utilizing Hardware Breakpoints For Hooking In D.
 
 ## Compilation
-To run the HwBpD example, Execute this:
+To compile any files using the **HwBp** module, Run this:
 
 ```
-$ rdmd example.d
-```
-
-To compile it, Run this:
-
-```
-$ dmd example.d
+$ dmd YourFile.d -i HwBp.d
 ```
 
 ## Examples
